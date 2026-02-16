@@ -1,0 +1,1 @@
+fastmcp run src/mcp_server.py:mcp --transport sse --host 0.0.0.0 --port 8081
