@@ -3,9 +3,6 @@ from google.adk.models import Gemini
 from google.adk.tools.mcp_tool.mcp_toolset import MCPToolset
 from google.adk.tools.mcp_tool.mcp_session_manager import SseConnectionParams
 
-INSTRACTIONS = """
-You are a helpful assistant
-"""
 
 def create_agent():
     mcp_toolset = MCPToolset(
