@@ -6,6 +6,7 @@ source venv/bin/activate
 
 pip install google-adk
 
+export PYTHONPATH=$(pwd)
 export GOOGLE_CLOUD_PROJECT=<PROJECT_ID>
 export GOOGLE_CLOUD_LOCATION=<LOCATION>
 export GOOGLE_GENAI_USE_VERTEXAI=true
